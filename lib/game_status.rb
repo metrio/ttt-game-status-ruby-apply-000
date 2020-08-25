@@ -4,7 +4,7 @@ def position_taken?(board, index)
 end
 
 def won?(board, index)
-  if board[top_row_win[0]] == "X" && board[top_row_win[1]== "X" && board[top_row_win[2]] == "X"
+  if board[top_row_win[0]] == "X" && board[top_row_win[1]]== "X" && board[top_row_win[2]] == "X"
     
     "X won in the top row"
   end
