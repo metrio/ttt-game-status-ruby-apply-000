@@ -64,4 +64,3 @@ def won?(board)
       return "O"
     end
   end
-end
